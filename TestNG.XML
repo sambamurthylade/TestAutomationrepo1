@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+ <listeners>
+ <listener class-name="com.eapplycalculators.utilities.Reporting"></listener>
+ </listeners>
+  <test thread-count="1" verbose="1" name="Default test">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+     <!--  <class name="com.eapplycalculators.testCases.TC_PremimCalculator"/>-->
+      <class name="com.eapplycalculators.testCases.TC_eApplyCalDDT"></class>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

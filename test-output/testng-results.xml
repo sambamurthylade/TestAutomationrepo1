@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25512" started-at="2020-02-23T16:38:01 AEDT" finished-at="2020-02-23T16:38:26 AEDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25512" started-at="2020-02-23T16:38:01 AEDT" finished-at="2020-02-23T16:38:26 AEDT">
+      <class name="com.eapplycalculators.testCases.TC_eApplyCalDDT">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.eapplycalculators.testCases.TC_eApplyCalDDT@4493d195]" name="setup" is-config="true" duration-ms="10474" started-at="2020-02-23T16:38:01 AEDT" finished-at="2020-02-23T16:38:11 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="eApplyCalculator(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.eapplycalculators.testCases.TC_eApplyCalDDT@4493d195]" name="eApplyCalculator" duration-ms="7632" started-at="2020-02-23T16:38:13 AEDT" data-provider="eApplyCalclatorData" finished-at="2020-02-23T16:38:21 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[01/01/1988]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aviation]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cabin Crew]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[100000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Weekly]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[200000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[200000]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[90 Days]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2 Years]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$200,000.00]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[$200,000.00]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[$867.00]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[$1.69]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[$1.50]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[$0.31]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[$3.50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eApplyCalculator -->
+        <test-method status="PASS" signature="eApplyCalculator(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.eapplycalculators.testCases.TC_eApplyCalDDT@4493d195]" name="eApplyCalculator" duration-ms="4868" started-at="2020-02-23T16:38:21 AEDT" data-provider="eApplyCalclatorData" finished-at="2020-02-23T16:38:25 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[01/01/1988]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Advertising & Marketing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Business Analyst/Consultant]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yearly]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[300000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[300000]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[60 Days]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2 Years]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$300,000.00]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[$300,000.00]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[$1,300.00]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[$132.00]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[$117.00]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[$48.66]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[$297.66]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eApplyCalculator -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.eapplycalculators.testCases.TC_eApplyCalDDT@4493d195]" name="tearDown" is-config="true" duration-ms="711" started-at="2020-02-23T16:38:25 AEDT" finished-at="2020-02-23T16:38:26 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eapplycalculators.testCases.TC_eApplyCalDDT -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

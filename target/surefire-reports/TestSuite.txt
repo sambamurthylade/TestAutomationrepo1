@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 81.87 s <<< FAILURE! - in TestSuite
+com.eapplycalculators.testCases.TC_eApplyCalDDT.eApplyCalculator  Time elapsed: 25.669 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: Business Analyst/Consultant
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-95QKK0U', ip: '192.168.1.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.eapplycalculators.testCases.TC_eApplyCalDDT.eApplyCalculator(TC_eApplyCalDDT.java:35)
+

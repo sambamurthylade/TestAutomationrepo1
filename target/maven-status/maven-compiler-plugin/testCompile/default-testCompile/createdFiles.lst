@@ -1,0 +1,7 @@
+com\eapplycalculators\testCases\BaseClass.class
+com\eapplycalculators\pageObject\eApplyCalculatorPage.class
+com\eapplycalculators\utilities\XLUtils.class
+com\eapplycalculators\utilities\Reporting.class
+com\eapplycalculators\testCases\TC_eApplyCalDDT.class
+com\eapplycalculators\utilities\ReadConfig.class
+com\eapplycalculators\testCases\TC_PremimCalculator.class
