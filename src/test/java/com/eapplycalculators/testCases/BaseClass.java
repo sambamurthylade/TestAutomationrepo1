@@ -13,6 +13,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
@@ -57,9 +58,9 @@ public class BaseClass {
         driver.manage().timeouts().implicitlyWait( 10, TimeUnit.SECONDS); 
 	}
 	
-	@AfterClass
+	@AfterTest
 	public void tearDown() {
-		driver.quit();
+		driver.close();
 	}
 	
 	public void captureScreen(WebDriver driver, String tname) throws IOException {
